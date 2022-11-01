@@ -29,7 +29,7 @@ export class SupplierFormComponent implements OnInit {
 
   onSubmit() {
     if (this.data) {
-      this.supplierForm.addControl('id', new FormControl(this.data.id))
+      //this.supplierForm.addControl('id', new FormControl(this.data.id))
     }
     this.dialogRef.close(this.supplierForm.value);
   }

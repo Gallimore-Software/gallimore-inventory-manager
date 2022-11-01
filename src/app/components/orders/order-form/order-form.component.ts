@@ -30,7 +30,7 @@ export class OrderFormComponent implements OnInit {
         itemId: this.data.itemId,
         quantity: this.data.quantity,
         price: this.data.price,
-        tax: this.data.price*this.data.quantity*0.03,
+        //tax: this.data.price*this.data.quantity*0.03,
         total: this.data.quantity*this.data.price+this.data.tax
 
       });
@@ -40,7 +40,7 @@ export class OrderFormComponent implements OnInit {
   onSubmit() {
     // add order id as a form control since it is uneditable on the view
     if (this.data) {
-      this.orderForm.addControl('id', new FormControl(this.data.id))
+      //this.orderForm.addControl('id', new FormControl(this.data.id))
     }
     this.dialogRef.close(this.orderForm.value);
   }

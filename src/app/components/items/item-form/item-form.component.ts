@@ -29,7 +29,7 @@ export class ItemFormComponent implements OnInit {
         description: this.data.description,
         price: this.data.price,
         quantity: this.data.quantity,
-        total: this.data.price*this.data.quantity,
+        //total: this.data.price*this.data.quantity,
         supplierId: this.data.supplierId
       });
     }
@@ -38,7 +38,7 @@ export class ItemFormComponent implements OnInit {
   onSubmit() {
     // add item id as a form control since it is uneditable on the view
     if (this.data) {
-      this.itemForm.addControl('id', new FormControl(this.data.id))
+      //this.itemForm.addControl('id', new FormControl(this.data.id))
     }
     this.dialogRef.close(this.itemForm.value);
   }

@@ -33,7 +33,7 @@ export class UserFormComponent implements OnInit {
 
   onSubmit() {
     if (this.data) {
-      this.userForm.addControl('id', new FormControl(this.data.id))
+      //this.userForm.addControl('id', new FormControl(this.data.id))
     }
     this.dialogRef.close(this.userForm.value);
   }
