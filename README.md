@@ -1,4 +1,7 @@
 # InventoryApp
+
+[![Azure Static Web Apps CI/CD](https://github.com/Gallimore-Software/inventory/actions/workflows/azure-static-web-apps-yellow-river-0ed6e780f.yml/badge.svg)](https://github.com/Gallimore-Software/inventory/actions/workflows/azure-static-web-apps-yellow-river-0ed6e780f.yml)
+
 ## Requirements
   * Mac or Windows
   * Visual Studio 2017 or newer
