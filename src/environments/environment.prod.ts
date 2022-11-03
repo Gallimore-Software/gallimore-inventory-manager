@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost/InventoryAPI'
+  apiUrl: 'https://inventory-gallimore-software.azurewebsites.net'
 };
